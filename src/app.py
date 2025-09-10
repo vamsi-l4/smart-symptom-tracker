@@ -12,8 +12,8 @@ load_dotenv("../.env")
 JWT_SECRET = os.getenv("JWT_SECRET", "supersecret")
 
 # Load ML model + vectorizer
-vectorizer = joblib.load("models/vectorizer.joblib")
-model = joblib.load("models/model.joblib")
+vectorizer = joblib.load("../models/vectorizer.joblib")
+model = joblib.load("../models/model.joblib")
 
 
 app = FastAPI(title="Smart Symptom Triage API")
