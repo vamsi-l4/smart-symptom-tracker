@@ -1,2 +1,3 @@
 #!/bin/bash
-exec uvicorn src.app:app --host 0.0.0.0 --port $PORT
+# Render already sets PWD to src
+exec uvicorn app:app --host 0.0.0.0 --port $PORT
