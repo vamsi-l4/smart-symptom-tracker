@@ -1,0 +1,19 @@
+# numpy
+# pandas
+# scikit-learn
+# torch
+# transformers
+# datasets
+# evaluate
+# fastapi
+# uvicorn[standard]
+# pyjwt
+# python-dotenv
+fastapi
+uvicorn[standard]
+joblib
+scikit-learn
+numpy
+pandas
+pyjwt
+python-dotenv
