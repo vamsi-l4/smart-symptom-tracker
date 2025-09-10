@@ -1,3 +1,2 @@
 #!/bin/bash
-# Don't cd, Render's PWD is already src
-exec uvicorn app:app --host 0.0.0.0 --port $PORT
+exec uvicorn src.app:app --host 0.0.0.0 --port $PORT
