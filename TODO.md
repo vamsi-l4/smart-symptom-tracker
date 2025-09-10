@@ -6,8 +6,9 @@
 - [x] Added /healthz endpoint for Render health checks
 
 ## Next Steps
-- [ ] Commit and push changes to GitHub
-- [ ] Trigger manual deploy on Render
+- [x] Created RENDER_DEPLOYMENT_GUIDE.md with detailed settings
+- [ ] Commit and push changes to GitHub (including the new guide)
+- [ ] Trigger manual deploy on Render using the guide settings
 - [ ] Check deployment logs for any remaining issues
 - [ ] Test the deployed API endpoints
 
