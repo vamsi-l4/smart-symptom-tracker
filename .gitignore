@@ -9,4 +9,4 @@ venv/
 .env
 
 # VSCode settings (optional, but safe)
-.vscode/
+
