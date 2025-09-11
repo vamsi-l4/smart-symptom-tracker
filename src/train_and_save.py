@@ -1,4 +1,4 @@
-# src/train_and_save.py
+# src/
 import pandas as pd
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
